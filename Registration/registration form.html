@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body
+            {
+                background-image:url(https://img.freepik.com/free-photo/flat-lay-clean-office-desk_23-2148219267.jpg);
+                background-size: cover;
+                background-position: centre;
+                box-sizing:border-box;
+                font-family: sans-serif;
+            }
+             form {border:2px solid rgb(7, 6, 6);}
+        </style>
+        <title> my first page </title>
+    </head>
+        <form>
+            <center>
+            <h1><u>registration form</u></h1> 
+        <h4> <u>personal details </u> </h4>
+            <form action ="/action.php"> 
+            <input type ="text" placeholder = " username"  >
+            </br>
+        </br>
+            <input type ="password" placeholder =" password">
+    </br>
+        <h4><u> select your class </u> </h4>
+            <label for ="id1">
+                <input type ="radio" value ="class10" name ="class">class10
+            </label>
+            <label for ="id2">
+                <input type ="radio" value ="class12" name ="class">class12
+            </label>
+        </br>
+        <h4><u> select your subject </u> </h4>
+            <label for = "id1">
+                <input type = "checkbox" value ="maths" name ="class" id="id1">maths
+            </br>
+                <input type = "checkbox" value ="physics" name ="class" id="id1">physics
+            </br>
+                <input type = "checkbox" value ="chemistry" name ="class" id="id1">chemistry
+            </br>
+                <input type = "checkbox" value ="comuter science" name ="class" id="id1">computer science
+            </br> 
+        </label>
+        <h4><u> select your city </u> </h4>
+        <select name ="city" id ="city">
+            <option value = "Delhi">Delhi</option>
+            <option value ="mumbai">mumbai</option>
+            <option value ="uttar pradesh">uttar pradesh</option>
+            <option value ="bihar">bihar</option>
+        </select>
+    </br>
+</br>
+        <textarea name ="feedback" placeholder ="give your valuable feedback"></textarea>
+</br>
+</br>
+        <input type ="submit" value="submit">
+</center>
+
+        </form>
+
+
+    </body>
+</html>
